@@ -1,5 +1,5 @@
 # Random Quote Machine
- A website that generate random quotes from its database when the button 'new-quote' is pressed
+A website that generates random quotes from its database when the 'new-quote' button is pressed.
 
-<h3 href="www.github.com/IkPc">Github</h2>
-<h3 href="https://www.linkedin.com/in/pabllo-cristian-ferreira-de-lima-712b5224b/">Linkedin</h3>
+[Github](https://www.github.com/IkPc) <br />
+[LinkedIn](https://www.linkedin.com/in/pabllo-cristian-ferreira-de-lima-712b5224b/)

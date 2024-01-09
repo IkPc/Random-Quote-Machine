@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Transition styles */
+  body,
+  #new-quote {
+    transition: background-color 1.5s ease;
+  }
+  
+  #text,
+  #author,
+  #tweet-quote,
+  #github {
+    transition: color 1.5s ease;
+  }
+  

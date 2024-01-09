@@ -48,3 +48,5 @@ const quotes = [
       author:"Elvis Presley"
     }
   ]
+
+  export default quotes;
