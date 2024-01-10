@@ -1,13 +1,15 @@
 /* quoteBox.css */
 #quote-box {
     margin: auto;
-    width: 27vw;
-    min-height: 100px;
+    width: 28vw;
     background-color: white;
+    min-height: 100px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     align-self: flex-start;
+    display: flex;
+    flex-direction: column
   }
   
   #quote-box #text {

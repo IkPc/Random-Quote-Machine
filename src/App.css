@@ -18,4 +18,10 @@ body {
   #github {
     transition: color 1.5s ease;
   }
+
+  /*pointer cursor*/
+
+  a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
   
