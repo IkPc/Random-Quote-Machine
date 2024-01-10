@@ -33,19 +33,27 @@
     text-align: right;
   }
   
-  #quote-box #socials {
-    font-size: 3em;
-    float: left;
+  #quote-box #buttons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
   }
   
   #quote-box #new-quote {
-    position: relative;
-    top: 4px;
+    margin-top: -4px;
     height: 45px;
     width: 90px;
     color: white;
     border: 0;
     border-radius: 4px;
-    float: right;
+  }
+  
+  #quote-box #socials {
+    font-size: 3em;
+    display: flex; 
+  }
+  
+  #quote-box #tweet-quote {
+    margin-right: 0.1vw;
   }
   

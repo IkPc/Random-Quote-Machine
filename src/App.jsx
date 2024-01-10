@@ -3,6 +3,7 @@ import "./components/css/StyleRandomQuote.css";
 import React, { useEffect, useState } from 'react';
 import RandomQuote from "./components/basics/RandomQuote.js";
 import RandomColor from "./components/basics/RandomColor.jsx";
+import updateTweetLink from './components/basics/twitter-button/updateTweetLink';
 
 const App = () => {
   const [quote, setQuote] = useState('');
@@ -17,13 +18,11 @@ const App = () => {
     const newQuote = RandomQuote();
     const newColor = RandomColor();
   
-    console.log('New Quote:', newQuote);
-    console.log('New Author:', newQuote.author);
-    console.log('New Color:', newColor);
   
     setQuote(newQuote.text);
     setAuthor(newQuote.author);
     setColor(newColor);
+    updateTweetLink(newQuote);
   };
 
   return (
@@ -32,20 +31,13 @@ const App = () => {
         <span id="text">{quote}</span>
       </div>
       <div id="quote-author">
-        <span id="author">- {author}</span>
+        <span id="author">- <u><i>{author}</i></u></span>
       </div>
       <div id="buttons">
-        <button
-          id="new-quote"
-          onClick={handleNewQuote}
-          title="Click to generate another quote!"
-        >
-          New quote
-        </button>
         <div id="socials">
           <a
             id="tweet-quote"
-            href=""
+            href="{tweetLink}"
             data-size="large"
             target="_top"
             title="Click to tweet this quote!"
@@ -63,6 +55,13 @@ const App = () => {
             <i className="fa-brands fa-square-github"></i>
           </a>
         </div>
+        <button
+          id="new-quote"
+          onClick={handleNewQuote}
+          title="Click to generate another quote!"
+        >
+          New quote
+        </button>
       </div>
     </div>
   );
