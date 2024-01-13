@@ -2,7 +2,7 @@
     "short_name": "randomQuote",
     "name": "Random Quote Machine",
     "description": "Its function is to change its quote randomly within its author.",
-    "start_url": "./",
+    "start_url": "/Random-Quote-Machine/",
     "display": "standalone"
   }
   
