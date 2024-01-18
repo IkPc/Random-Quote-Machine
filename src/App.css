@@ -9,6 +9,7 @@ body {
   /* Transition styles */
   body,
   #new-quote {
+    background-color: white;
     transition: background-color 1.5s ease;
   }
   
@@ -16,6 +17,7 @@ body {
   #author,
   #tweet-quote,
   #github {
+    color: white;
     transition: color 1.5s ease;
   }
 
