@@ -1,8 +1,8 @@
 {
     "short_name": "randomQuote",
     "name": "Random Quote Machine",
-    "description": "Its function is to change its quote randomly within its author.",
-    "start_url": "/Random-Quote-Machine/",
+    "description": "It's function is to change its quote randomly within its author.",
+    "start_url": "ikpc.github.io/Random-Quote-Machine/",
     "display": "standalone"
   }
   
