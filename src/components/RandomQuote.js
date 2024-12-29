@@ -1,4 +1,4 @@
-import quotes from '../data/Quotes.jsx';
+import quotes from '../utils/Quotes.jsx';
 
 const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);

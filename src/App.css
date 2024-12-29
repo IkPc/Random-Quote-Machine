@@ -2,13 +2,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
   }
   
   /* Transition styles */
   body,
-  #new-quote {
+  #new-quote,
+  #quote-box {
     background-color: white;
     transition: background-color 1.5s ease;
   }
